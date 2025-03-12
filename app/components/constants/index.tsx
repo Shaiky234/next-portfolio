@@ -1,4 +1,4 @@
-import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
+
 
 export const SkillData = [
   {
@@ -92,46 +92,25 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    "title": "Modern Nextjs Website",
+    "text": "A sleek, responsive website built using Next.js, offering seamless navigation and performance optimization. Perfect for modern web applications.",
+    
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    "title": "Space Themed Website",
+    "text": "Explore the universe with this space-themed website. From interactive star maps to detailed information on planets, it provides an immersive experience.",
+   
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    "title": "Modern Nextjs Portfolio",
+    "text": "This portfolio showcases the best work with an elegant design, fast load times, and an intuitive user interface, all powered by Next.js.",
+
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    "title": "Matrix Themed Website",
+    "text": "A visually stunning website with a Matrix-inspired aesthetic. Dive into an interactive, code-based environment with a futuristic interface.",
+    
   },
+ 
 ];
 
-export const NavLinks = [
-  {
-    name: "/",
-    icon: RxHome,
-    link: "/",
-  },
-  {
-    name: "/my-skills",
-    icon: RxPerson,
-    link: "/my-skills",
-  },
-  {
-    name: "/my-projects",
-    icon: RxDashboard,
-    link: "/my-projects",
-  },
-  {
-    name: "/contact-me",
-    icon: RxClipboard,
-    link: "/contact-me",
-  },
-];

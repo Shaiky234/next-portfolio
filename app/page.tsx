@@ -4,8 +4,8 @@ import profilepic from "../public/images/profilepicpng.png";
 
 export default function Home() {
   return (
-    <main className=" flex justify-center w-[100%] h-auto ">
-      <div className="flex  flex-col  md:flex-row  gap-34 mt-20">
+    <main className=" flex justify-center  items-center w-[100%] h-auto ">
+      <div className="flex  flex-col justify-center  items-center md:flex-row gap-34 h-auto">
 
         <div>
           <div className="flex   items-center w-full h-full bg-black">
@@ -72,9 +72,10 @@ export default function Home() {
           <Image
             src={profilepic}
             alt="logo"
-            className="w-170 h-auto object-contain rounded-full"
+            className="w-120 h-auto object-contain rounded-full"
           />
         </div>
+        
       </div>
 
     </main>

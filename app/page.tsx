@@ -2,11 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import profilepic from "../public/images/profilepicpng.png";
 
-
 export default function Home() {
   return (
     <div className="relative">
-      
       <div className="w-full h-screen flex justify-center items-center">
         <div className="w-full max-w-[1150px] justify-center items-center flex h-full bg-black gap-34">
           <div className="flex flex-col gap-5">

@@ -1,7 +1,7 @@
 import ContactForm from "../components/ContactForm";
 import React from "react";
 import Image from "next/image";
-import con from "../../public/images/con.png";
+import contacts from "../../public/images/contacts.png";
 const Page = () => {
   return (
     <div className="w-full h-full flex flex-row ">
@@ -9,7 +9,7 @@ const Page = () => {
         <div className="h-[60%] w-[50%] ">
           {" "}
           <Image
-            src={con}
+            src={contacts}
             alt="logo"
             className="w-220  object-contain rounded-r-4xl"
           />
